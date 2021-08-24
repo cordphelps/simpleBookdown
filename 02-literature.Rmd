@@ -1,0 +1,29 @@
+# Literature
+
+Here is a review of existing methods.
+
+
+:::: {.cols data-latex=""}
+
+::: {.col .italic-box data-latex="{0.45\textwidth}" }
+
+
+Con ayuda de R, vamos a simular una población de ciervos que se distribuye en un área de 100 km2 (100 cuadrados de 1 km de lado)
+
+:::
+
+::: {.col .space-box data-latex="{0.05\textwidth}"}
+\ 
+<!-- an empty Div (with a white space), serving as
+a column separator -->
+:::
+
+::: {.col data-latex="{0.45\textwidth}"}
+
+With the help of R, we are going to simulate a deer population that is distributed in an area of 100 km2 (100 squares of 1 km on each side)
+
+:::
+::::
+
+<br />
+

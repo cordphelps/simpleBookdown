@@ -1,0 +1,27 @@
+\newenvironment{cols}[1][]{}{}
+
+\newenvironment{col}[1]{\begin{minipage}{#1}\ignorespaces}{%
+\end{minipage}
+\ifhmode\unskip\fi
+\aftergroup\useignorespacesandallpars}
+
+\def\useignorespacesandallpars#1\ignorespaces\fi{%
+#1\fi\ignorespacesandallpars}
+
+\makeatletter
+\def\ignorespacesandallpars{%
+  \@ifnextchar\par
+    {\expandafter\ignorespacesandallpars\@gobble}%
+    {}%
+}
+\makeatother
+
+
+\setlength{\fboxsep}{.8em}
+
+\newenvironment{italic-box}{
+  \textwidth{0.45}
+  \definecolor{shadecolor}{rgb}{0, 0, 0}  % black
+  \color{white}
+  \begin{shaded}\itshape}
+ {\end{shaded}}

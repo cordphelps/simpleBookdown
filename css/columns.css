@@ -1,0 +1,15 @@
+.cols {
+  display: flex;
+}
+.source-col {
+  font-style: italic;
+}
+.italic-box {
+  font-style: italic  !important;
+  background-color: #d9d9d9  !important;
+  border-style: solid  !important;
+  width: 45% !important;
+}
+.space-box {
+  width: 5% !important;
+}
